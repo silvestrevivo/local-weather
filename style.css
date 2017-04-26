@@ -1,0 +1,44 @@
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  /*border: 1px solid red;*/
+  background: url('https://s-media-cache-ak0.pinimg.com/originals/06/ee/fa/06eefa2dcd18bf3bf8f5ff39f78fa7c6.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.wrapper{
+  height: 100%;
+  width: 100%;
+  /*border: 1px solid orange;*/
+  display: table;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container{
+  /*border: 1px solid blue;*/
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15%;
+}
+
+h1{
+  color: white;
+  font-size: 70px;
+}
+
+.lead, .temperature, .weather{
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.blue{
+  color: blue;
+}
+
+img{
+  width: 15%;
+}
