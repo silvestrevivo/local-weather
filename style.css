@@ -1,9 +1,12 @@
 body, html{
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 body{
+  opacity: 0;
+  visibility: visible;
   /*border: 1px solid red;*/
   background: url('https://s-media-cache-ak0.pinimg.com/originals/06/ee/fa/06eefa2dcd18bf3bf8f5ff39f78fa7c6.jpg') no-repeat center center;
   background-size: cover;
